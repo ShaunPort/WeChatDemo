@@ -1,0 +1,12 @@
+#tip{
+    height: 600rpx;
+}
+input{
+    height: 80rpx;
+    border: 1rpx solid blue;
+    border-radius: 6%;
+    margin-bottom: 15rpx;
+}
+.zj{
+    margin-top: 15rpx;
+}

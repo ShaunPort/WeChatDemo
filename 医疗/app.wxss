@@ -1,0 +1,22 @@
+button{
+  background-color:#b22c46;
+  color: white;
+  margin: 20rpx;
+}
+label{
+  color: #b22c46;
+  margin-right: 25rpx;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.box{
+  border-bottom: 1rpx solid silver;
+  margin: 20rpx;
+  padding: 10rpx;
+}

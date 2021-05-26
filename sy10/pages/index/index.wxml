@@ -1,0 +1,11 @@
+<swiper indicator-dots autoplay interval="5000" duration="500">
+  <block wx:for='{{[newsList[0],newsList[1],newsList[2]]}}' wx:key='swiper{{index}}'>
+    <swiper-item><image src='{{item.poster}}'></image></swiper-item>
+  </block>
+</swiper>
+<view id='news-list'>
+  <view class='list-item'wx:for='{{newsList}}'wx:key='news{{index}}'wx:for-item='news'>
+    <image src='{{news.poster}}'></image>
+    <text bindtap='goToDetail'data-id='{{news.id}}'>{{news.title}}--{{news.add_date}}</text>
+  </view>
+</view>

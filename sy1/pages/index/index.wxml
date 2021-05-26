@@ -1,0 +1,5 @@
+<view class='container'>
+  <image src="{{src}}" mode="widthFix"></image>
+    <text>{{info}}</text>
+  <button class='xxx' open-type="getUserInfo" bindgetuserinfo='getMyInfo'>登入</button>
+</view>

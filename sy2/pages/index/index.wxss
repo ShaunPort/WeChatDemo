@@ -1,0 +1,31 @@
+/*背景容器样式*/
+.containner{
+  height:100vh;
+  background-color: silver;
+  display: flex;
+  flex-direction:column;
+}
+/*列表组样式*/
+.listGroup{
+  background-color: white;
+  margin: 8rpx 0;
+}
+/*列表项单行样式*/
+.listItem{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  border:1rpx solid silver;
+  padding: 3rpx;
+}
+/*图标尺寸*/
+image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 15rpx;
+}
+/*文本样式*/
+text{
+  font-size: 40rpx;
+  flex-grow: 1;
+}

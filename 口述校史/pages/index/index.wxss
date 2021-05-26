@@ -1,0 +1,48 @@
+/* 视频样式 */
+video{
+  width: 100%;
+}
+/* 弹幕区域样式 */
+.danmuArea{
+  width:98%;
+  display: flex;
+  flex-direction: row;
+  margin:10rpx;
+}
+/* 弹幕框样式 */
+input{
+  height: 100rpx;
+  border: 4rpx solid #987938;
+  flex-grow: 1;
+  border-radius: 20rpx;
+  height: 78rpx;
+}
+/* 发弹幕按钮 */
+button{
+  color:white;
+  background-color: #987938;
+  width: 95%;
+  height: 92%;
+}
+image{
+  height: 70rpx;
+  width: 70rpx;
+  margin:10rpx;
+}
+text{
+  font-size: 45rpx;
+  margin: 20rpx;
+  flex-grow: 1;
+}
+.videoList{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  min-height: 400rpx;
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+  border-bottom:1rpx solid #987938;
+}

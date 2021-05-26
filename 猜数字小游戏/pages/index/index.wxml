@@ -1,0 +1,5 @@
+<view class='container'>
+    <button type="primary" bindtap="gotoGame">开始游戏</button>
+    <button type="primary" bindtap="gotoRule">游戏规则</button>
+    <button type="primary" bindtap="gotoAbout">关于我们</button>
+</view>

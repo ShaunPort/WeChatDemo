@@ -1,0 +1,18 @@
+.container{
+  align-items:center;
+}
+image{
+  width: 300rpx;
+  border-radius:50%
+}
+text{
+  font-size:80rpx;
+  line-height: 200px;
+}
+button{
+  background-color: aqua;
+}
+.xxx{
+  width: 600rpx;
+}
+
